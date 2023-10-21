@@ -29,8 +29,8 @@
 }
 
 .like-icon .main-body {
-  transition: fill .3s linear;
   fill:transparent;
+  transition: fill .3s linear;
 }
 
 .like-icon:hover .main-body {
@@ -44,8 +44,8 @@
 }
 
 .like-icon .core {
-  transition: fill .3s .03s linear;
   fill:transparent;
+  transition: fill .3s .03s linear;
 }
 
 .like-icon:hover .core {
