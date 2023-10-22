@@ -28,6 +28,11 @@
   transition: fill .1s linear;
 }
 
+.like-icon {
+  width:39px;
+  height:34px;
+}
+
 .like-icon .main-body {
   fill:transparent;
   transition: fill .3s linear;

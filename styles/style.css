@@ -65,6 +65,10 @@
   font-size: var(--font-size-title);
 }
 
+.header__title:focus {
+  outline: none;
+}
+
 .header__text {
   align-self: center;
   font-size: var(--font-size-text);
@@ -134,11 +138,13 @@
   justify-content: center;
   align-items: center;
   gap:50px;
-  background: var(--themes-bg-color);
 }
+
 .card {
   border: 2px solid var(--themes-main-color);
+  background: var(--themes-bg-color);
 }
+
 .card__title {
   border-block-end: 2px solid var(--themes-main-color);
   padding: 4px 10px 6px 10px;
@@ -228,12 +234,16 @@
 .card__like-form {
   display: flex;
   justify-content: end;
+  align-items: center;
+  min-block-size: 38px;
   gap:6px;
   margin:0 25px 25px 0
 }
 
 .card__icon-button {
-  min-height: 38px;
+  min-height: 30px;
+  display: flex;
+  align-items: center;
   border: transparent;
   outline: transparent;
   background: transparent;
@@ -268,11 +278,6 @@
   outline:none;
 }
 
-.button__content:hover .button__text {
-  color: var(--themes-main-color);
-  mix-blend-mode: difference;
-}
-
 .button__content:before {
   content: '';
   position: absolute;
@@ -291,6 +296,7 @@
 .button__text {
   position: relative;
   z-index: 100;
+  mix-blend-mode: difference;
   font-family: var(--accent-font);
 }
 
@@ -300,6 +306,7 @@
   align-items: center;
   gap: 8px;
   padding: 15px 20px;
+  margin: 0 auto;
   background: var(--themes-bg-color);
 }
 

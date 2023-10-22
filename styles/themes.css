@@ -15,11 +15,9 @@
     linear-gradient(#e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
 }
 
-.theme-light .button__content:hover .button__text {
+.theme-light .button__text {
   color: var(--themes-bg-color);
 }
-
-
 
 @media (prefers-color-scheme: light) {
   :root {
@@ -33,7 +31,7 @@
       linear-gradient(#e7e7e7 0%, #e7e7e7 0.01%, #1a1a1a 100%);
   }
 
-  .button__content:hover .button__text {
+  .button__text {
     color: var(--themes-bg-color);
   }
 }
@@ -49,6 +47,6 @@
     linear-gradient(#007F0C 0%, #004306 100%);
 }
 
-.theme-dark .button__content:hover .button__text {
+.theme-dark .button__text {
   color: var(--themes-main-color);
 }
