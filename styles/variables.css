@@ -4,7 +4,7 @@
   --themes-bg-color:#000;
   --wght-normal: 465;
   --wght-bold: 785;
-  --accent-font:PressStart2P, serif;
+  --accent-font:PressStart2P, fantasy;
   --main-font:Inter, sans-serif;
   --article-image:url(../images/image.png);
   --font-size-title: clamp(3.063rem, 2.777rem + 1.429vw, 4.063rem);

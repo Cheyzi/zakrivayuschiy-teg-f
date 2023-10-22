@@ -16,7 +16,6 @@
 }
 
 .theme-light .button__content:hover .button__text {
-  mix-blend-mode: difference;
   color: var(--themes-bg-color);
 }
 
@@ -35,7 +34,6 @@
   }
 
   .button__content:hover .button__text {
-    mix-blend-mode: difference;
     color: var(--themes-bg-color);
   }
 }
@@ -52,6 +50,5 @@
 }
 
 .theme-dark .button__content:hover .button__text {
-  mix-blend-mode: difference;
   color: var(--themes-main-color);
 }
